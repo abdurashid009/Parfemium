@@ -66,7 +66,7 @@ const Footer = () => {
                 Unveiling the Queen of Flowers in Fragrance...
               </p>
               <p>Lavender, with its enchanting aroma and rich history, has been cherished for centuries as a symbol of relaxation, healing, and timeless beauty. In the world of perfumery, lavender plays a key role in creating captivating fragrances loved by many.</p>
-              <button className="bg-black px-4 py-2 rounded-lg mt-[30px] hover:bg-gray-600 border-2">
+              <button className="bg-black px-4 py-2 rounded-lg mt-[30px] hover:border-orange-600 hover:text-orange-700 border-2">
                 Read More
               </button>
             </div>

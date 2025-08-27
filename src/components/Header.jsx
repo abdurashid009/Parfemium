@@ -14,11 +14,11 @@ import Treasure from '../assets/Treasure.png'
 import Footer from './Footer'
 
 const Header = () => {
-  // document.addEventListener("contextmenu", (e) => e.preventDefault());
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
   return (
     <div className=' bg-[black]'>
       <div className="min-h-screen bg-[#000000] pb-[100px] bg-[radial-gradient(circle_at_34%,rgba(35,35,35,1)_5%,rgba(1,10,10,1)_45%)]">
-          <Navbar />
+        
           <div className=' flex justify-center gap-[120px] items-center'>
               <div className=' text-white flex flex-col justify-center items-start gap-[20px]'>
                   <h1 className=' text-6xl w-[760px] hover:text-[#ff8000] transition-all duration-[0.6s] font-extralight'>Elevate Your Spirit with Victory Scented Fragrances!</h1>
@@ -81,7 +81,6 @@ const Header = () => {
           </div>
         </div>
       </section>
-         <Footer/>
       </div>
   )
 }

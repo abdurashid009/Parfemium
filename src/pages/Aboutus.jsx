@@ -2,7 +2,7 @@ import React from "react";
 const Site2 = () => {
   return (
     <div className="pt-32 bg-black text-white bg-[url('perfume2.png')]">
-       
+        
       <section className="text-center max-w-2xl mx-auto px-4">
         <h2 className="text-4xl font-semibold mb-4">About Us</h2>
         <p className="text-gray-300 leading-relaxed">

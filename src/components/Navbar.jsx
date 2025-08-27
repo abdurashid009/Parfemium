@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className=" flex justify-around py-[20px] items-center text-white  w-[100%]">
+    <nav className=" flex justify-around py-[20px] items-center text-white  w-[100%] bg-[#000000] ">
       <img
         className=" hover:transform-gpu hover:scale-120 active:scale-80
                         transition-all duration-[0.5s] shadow-lg "
@@ -51,7 +51,8 @@ const Navbar = () => {
           className=" hover:transform-gpu text-[20px] hover:scale-150 active:scale-80
                         transition-all duration-[0.5s] shadow-lg hover:text-[#ff6f16]"
         />
-      </div>
+          </div>
+         
     </nav>
   );
 }

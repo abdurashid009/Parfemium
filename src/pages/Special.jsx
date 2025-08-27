@@ -1,7 +1,5 @@
 import React from "react";
-import img from '../images/photo_2025-08-22_17-47-46.jpg'
-import img1 from '../images/photo_2025-08-22_17-48-39.jpg'
-function Ism() {
+function Special() {
   return (
     <div className="bg-black min-h-screen text-white px-6 py-12">
   
@@ -12,7 +10,7 @@ function Ism() {
       <div className="grid md:grid-cols-2 gap-6 items-center mb-16">
         <div>
           <img
-            src={img}
+            src={'photo_2025-08-22_17-47-46.jpg'}
             alt="Aqua Serenity"
             className="rounded-xl w-[750px] shadow-lg h-[900px]object-cover hover:scale-105 transition"
           />
@@ -66,7 +64,7 @@ function Ism() {
    
         <div>
           <img
-            src={img1}
+            src={'photo_2025-08-22_17-48-39.jpg'}
             alt="Golden Angel"
             className="rounded-xl w-[700] shadow-lg  object-cover hover:scale-105 transition"
           />
@@ -76,4 +74,4 @@ function Ism() {
   );
 }
 
-export default Ism;
+export default Special;

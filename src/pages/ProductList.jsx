@@ -1,6 +1,5 @@
 import React from "react";
-import data from "../components/data"
-
+import data from "../data"
 
 const ProductCard = ({ product }) => {
   return (

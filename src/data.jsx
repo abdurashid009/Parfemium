@@ -1,16 +1,5 @@
 import React from 'react';
-import Lux from '../images/Lux.png'
-import Fash from '../images/Fash.png'
-import P3 from '../images/P3.png'
-import P4 from '../images/P4.png'
-import P5 from '../images/P5.png'
-import P6 from '../images/P6.png'
-import P7 from '../images/P7.png'
-import P8 from '../images/P8.png'
-import P9 from '../images/P9.png'
-import P10 from '../images/P10.png'
-import P11 from '../images/P11.png'
-import P12 from '../images/P12.png'
+
 
 const products = [
   {
@@ -20,7 +9,7 @@ const products = [
     size: "100ml",
     rating: 4.9,
     reviews: 624,
-    img: Lux,
+    img: 'Fash.png',
   },
   {
     id: 2,
@@ -29,7 +18,7 @@ const products = [
     size: "100ml",
     rating: 4.8,
     reviews: 520,
-    img: Fash,
+    img: 'Lux.png',
   },
   {
     id: 3,
@@ -38,7 +27,7 @@ const products = [
     size: "150ml",
     rating: 5.0,
     reviews: 711,
-    img: P3,
+    img: 'P3.png',
   },
   {
     id: 4,
@@ -47,7 +36,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P4,
+    img: 'P4.png',
   },
   {
     id: 5,
@@ -56,7 +45,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P5,
+    img: 'P5.png',
   },
   {
     id: 6,
@@ -65,7 +54,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P6,
+    img: 'P6.png',
   },
   {
     id: 7,
@@ -74,7 +63,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P7,
+    img: 'P7.png',
   },
   {
     id: 8,
@@ -83,7 +72,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P8,
+    img: 'P8.png',
   },
   {
     id: 9,
@@ -92,7 +81,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P9,
+    img: 'P9.png',
   },
   {
     id: 10,
@@ -101,7 +90,7 @@ const products = [
     size: "100ml",
     rating: 4.7,
     reviews: 121,
-    img: P10,
+    img: 'P10.png',
   },
   {
     id: 11,
@@ -110,7 +99,7 @@ const products = [
     size: "80ml",
     rating: 4.7,
     reviews: 121,
-    img: P11,
+    img: 'P11.png',
   },
   {
     id: 12,
@@ -119,7 +108,7 @@ const products = [
     size: "90ml",
     rating: 4.7,
     reviews: 121,
-    img: P12,
+    img: 'P12.png',
   }
 ];
 

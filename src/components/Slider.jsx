@@ -16,6 +16,7 @@ import Par10 from '../assets/par10.png';
 import Par11 from '../assets/par11.png';
 import Par12 from '../assets/par12.png';
 import { Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -30,10 +31,12 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className=" bg-[black] px-[80px] py-[40px] flex justify-center gap-[30px]">
-              <div
-                className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
+            <Link
+              to="/productlist"
+              className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"
-              >
+            >
+              <div className=" ">
                 <img src={Par1} alt="" />
                 <h1 className=" text-white text-xl">Luxurious Elixir Rough</h1>
                 <p className=" text-[#AB572D] font-bold">
@@ -41,6 +44,7 @@ const Slider = () => {
                   <span className=" font-extralight text-white ">100ml</span>
                 </p>
               </div>
+            </Link>
             <div
               className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"

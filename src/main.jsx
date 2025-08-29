@@ -9,6 +9,7 @@ import Header from "./components/Header.jsx";
 import Slide from "./pages/Slide.jsx";
 import Blog from "./pages/Blog.jsx"
 import Servisec from "./pages/Services.jsx";
+import ProductList from "./components/ProductList.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <Blog />,
+      },
+      {
+        path: "/productlist",
+        element: <ProductList />,
       },
     ],
   },

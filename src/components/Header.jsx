@@ -17,7 +17,7 @@ import night from "../assets/night.png";
 import ocean from "../assets/ocean.png";
 
 const Header = () => {
-  // document.addEventListener("contextmenu", (e) => e.preventDefault());
+  document.addEventListener("contextmenu", (e) => e.preventDefault());
   return (
     <div className=' bg-[black]'>
       <div className="min-h-screen bg-[#000000] pb-[100px] bg-[radial-gradient(circle_at_34%,rgba(35,35,35,1)_5%,rgba(1,10,10,1)_45%)]">

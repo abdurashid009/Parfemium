@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import data from "../data"
+=======
+import data from "../pages/data";
+>>>>>>> 4fa6522279a04bd3a244ddbd731b6253276ed15e
 
 const ProductCard = ({ product }) => {
   return (

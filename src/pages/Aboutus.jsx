@@ -1,70 +1,83 @@
-import React from "react";
-const Site2 = () => {
+import React from 'react'
+import Img1 from '../assets/qobil.png'
+
+const About = () => {
   return (
-    <div className="pt-32 bg-black text-white bg-[url('perfume2.png')]">
-        
-      <section className="text-center max-w-2xl mx-auto px-4">
-        <h2 className="text-4xl font-semibold mb-4">About Us</h2>
-        <p className="text-gray-300 leading-relaxed">
-          At Local Face Perfumes, we believe that fragrance is not just about how you smell; 
-          it’s about how you feel. Our carefully curated collection of perfumes is designed 
-          to elevate your everyday moments, helping you express your individuality with every spray.
+    <div className="bg-black text-white min-h-screen flex flex-col items-center px-10 py-20 space-y-20">
+      
+      
+      <div className="text-center space-y-6">
+        <h1 className="text-[50px] font-medium">About Us</h1>
+        <p className="max-w-[749px] mx-auto text-[20px] leading-relaxed">
+          At Local Face, we believe that perfumes are more than just scents; they are expressions 
+          of one's individuality and style. Our passion for exquisite fragrances led us to curate 
+          a collection that captures the essence of diverse personalities, bringing you an unparalleled 
+          olfactory experience.
         </p>
-      </section>
-  
-      <section className="mt-16 flex justify-center">
-        <div className="w-[809px] h-[187px] border border-orange-400 p-6 text-center">
-          <h3 className="text-orange-400 text-xl mb-3">Our Story</h3>
-          <p className="text-gray-300 text-sm leading-relaxed">
-            Local Face Perfumes was founded by a group of passionate enthusiasts with a shared vision 
-            of bringing world-class fragrances to our local community. Inspired by global trends but 
-            rooted in our unique cultural identity, we created a brand that blends tradition and 
-            innovation seamlessly.
-          </p>
-        </div>
-      </section>
+      </div>
 
+      <div className="text-center space-y-6">
+        <h1 className="text-[32px] font-medium text-[#AB572D]">Our Story</h1>
+        <p className="max-w-[809px] mx-auto text-[20px] leading-relaxed">
+          Local Face Perfumes was founded by a group of perfume enthusiasts with a shared vision 
+          to create a haven for perfume lovers seeking authentic, locally-inspired fragrances. 
+          Inspired by the diversity and richness of cultures around the world, we set out on a journey 
+          to curate a collection of scents that capture the essence of each region. Our aim is to bring 
+          you closer to the heart and soul of different cultures through the art of perfumery.
+        </p>
+      </div>
 
-      <section className="mt-16">
-        <img 
-          src="atrlar.png" 
-          alt="Perfumes" 
-          className="w-full h-[467px] object-cover"
-        />
-      </section>
+      
+      <img
+        className="w-[1440px] h-[618px] object-cover rounded-lg"
+        src={Img1}
+        alt="Perfume Collection"
+      />
+
+      <div className="space-y-10 text-center">
+        <h1 className="text-[32px] font-medium text-[#AB572D]">What Makes Us Unique</h1>
+        <ul className="flex justify-between gap-10 max-w-[1200px] mx-auto text-left text-[18px] leading-relaxed">
+          <li className="w-1/3">
+            <span >Locally Inspired</span><br />
+            Our perfumes are meticulously crafted to reflect the cultural heritage, traditions, 
+            and landscapes of various regions. From the vibrant streets of Marrakech to the serene 
+            cherry blossom gardens of Kyoto, each fragrance tells a unique story that resonates 
+            with its origin.
+          </li>
+          <li className="w-1/3">
+            <span >High-Quality Ingredients</span><br />
+            We believe that the key to an extraordinary scent lies in the quality of ingredients. 
+            That’s why we collaborate with expert perfumers who source the finest and ethically-sourced 
+            materials from around the world. We never compromise on the quality of our products, ensuring 
+            a long-lasting and luxurious experience.
+          </li>
+          <li className="w-1/3">
+            <span >Personalized Service</span><br />
+            We understand that choosing the perfect scent is a deeply personal experience. Our team of 
+            fragrance experts is always ready to assist you in finding a fragrance that complements your 
+            personality and style. Whether you’re exploring new scents or seeking to rediscover an old 
+            favorite, we’re here to guide you every step of the way.
+          </li>
+        </ul>
+      </div>
 
      
-      <section className="mt-12 text-center max-w-5xl mx-auto px-6">
-        <h3 className="text-orange-400 text-xl mb-6">What Makes Us Unique</h3>
+      <div className="font-[Satoshi] font-normal text-[20px] leading-[100%] tracking-[0]">
+        <p>
+          Join us on this olfactory adventure as we celebrate the diverse tapestry of scents from around 
+          the world. Discover the captivating aromas that embrace the essence of local cultures and connect 
+          with the beauty of our shared humanity.
+        </p>
+        <p >
+          Thank you for being a part of our journey.
+          <br /><br /><br />
+          With love and gratitude,<br /><br /><br />
+          The Local Face Perfumes Team
+        </p>
+      </div>
 
-        <div className="grid md:grid-cols-3 gap-8 text-left">
-          <div>
-            <h4 className="font-semibold mb-2">Locally Inspired</h4>
-            <p className="text-gray-400 text-sm">
-              Our perfumes are uniquely crafted to reflect the essence of our culture, 
-              blending notes that resonate with our roots.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold mb-2">High-Quality Ingredients</h4>
-            <p className="text-gray-400 text-sm">
-              We source only the best raw materials from around the world, ensuring 
-              each fragrance is of the highest quality and long-lasting.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="font-semibold mb-2">Personalized Service</h4>
-            <p className="text-gray-400 text-sm">
-              We pride ourselves on delivering a personalized experience to every customer, 
-              helping them find the perfect scent that matches their style.
-            </p>
-          </div>
-        </div>
-      </section>
     </div>
-  );
-};
+  )
+}
 
-export default Site2;
+export default About

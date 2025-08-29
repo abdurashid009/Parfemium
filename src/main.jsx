@@ -6,13 +6,14 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Aboutus from "./pages/Aboutus.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import Header from "./components/Header.jsx";
+import Slide from "./pages/Slide.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        index: true, // ✅ default sahifa
+        index: true,
         element: <Header />,
       },
       {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blogs />,
+      },
+      {
+        path: "/shop",
+        element: <Slide />,
       },
     ],
   },

@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Par from '../assets/Parfemium.png'
 import mainImg from '../assets/main.png'
 import Lemon from '../assets/LemonPar.png'
@@ -12,9 +11,13 @@ import PinkPar from '../assets/PinkPar.png'
 import RichPar from '../assets/RichPar.png'
 import Treasure from '../assets/Treasure.png'
 import Footer from './Footer'
+import Baggi from "../assets/Baggi.png"
+import flower from "../assets/Flowers.png";
+import night from "../assets/night.png";
+import ocean from "../assets/ocean.png";
 
 const Header = () => {
-  document.addEventListener("contextmenu", (e) => e.preventDefault());
+  // document.addEventListener("contextmenu", (e) => e.preventDefault());
   return (
     <div className=' bg-[black]'>
       <div className="min-h-screen bg-[#000000] pb-[100px] bg-[radial-gradient(circle_at_34%,rgba(35,35,35,1)_5%,rgba(1,10,10,1)_45%)]">
@@ -81,6 +84,103 @@ const Header = () => {
           </div>
         </div>
       </section>
+      <section className=" relative py-20 bg-gradient-to-r from-black via-black to-gray-900 h-[700px] bg-cover bg-center w-full">
+                <img src={Baggi} alt="" />
+                <div className=" absolute top-52 left-[110px] pl-[40px]">
+                  <h1 className=" text-5xl w-[500px]">
+                    Perfume Year-End Sale! Up to 50% OFF
+                  </h1>
+                  <p className=" font-extralight pt-[30px] text-[18px] w-[500px]">
+                    Discover an exquisite collection of premium perfumes at
+                    unbelievable prices during our exclusive Perfume Sale!
+                  </p>
+                  <button className="bg-orange-500 px-6 py-2 rounded-lg mt-[30px] hover:bg-orange-600">
+                    Know More
+                  </button>
+                </div>
+              </section>
+      
+              <section className="py-16 mt-20">
+                <h2 className="text-center text-5xl  text-orange-500 mb-10">
+                  Latest Articles
+                </h2>
+                <div className="flex justify-center items-center gap-6 px-[70px]">
+                  <div className="bg-black overflow-hidden shadow-md">
+                    <img
+                      src={flower}
+                      alt="Lavender Perfume"
+                      className="w-full h-56 object-cover"
+                    />
+                    <div className="p-4">
+                      <h3 className="font-semibold mb-2">
+                        The Soothing Symphony of Lavender Perfume
+                      </h3>
+                      <p className="text-sm text-gray-400 mb-4">
+                        Unlock the secrets of a fragrant elixir...
+                      </p>
+                      <p>
+                        Lavender, with its enchanting aroma and rich history, has been
+                        cherished for centuries as a symbol of relaxation, healing,
+                        and timeless beauty. In the world of perfumery, lavender plays
+                        a key role in creating captivating fragrances loved by many.
+                      </p>
+                      <button className=" transition-all duration-[0.4s] hover:scale-[1.1] hover:translate-y-[-10px] bg-black px-4 py-2 rounded-lg mt-[30px] hover:border-orange-600 hover:text-orange-700 border-2">
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+      
+                  <div className="bg-black  overflow-hidden shadow-md">
+                    <img
+                      src={night}
+                      alt="Luxury Perfume"
+                      className="w-full h-56 object-cover"
+                    />
+                    <div className="p-4">
+                      <h3 className="font-semibold mb-2">
+                        The Art of Curating a Luxury Perfume Collection
+                      </h3>
+                      <p className="text-sm text-gray-400 mb-4">
+                        A symphony of scents and stories...
+                      </p>
+                      <p>
+                        A luxury perfume collection is not just an assortment of
+                        fragrances; it is a reflection of one's taste, personality,
+                        and experiences. Each bottle holds a unique olfactory journey,
+                        crafted with the finest ingredients and artistic mastery.
+                      </p>
+                      <button className=" transition-all duration-[0.4s] hover:scale-[1.1] hover:translate-y-[-10px]  bg-black px-4 py-2 rounded-lg mt-[30px] hover:border-orange-600 hover:text-orange-700 border-2">
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+      
+                  <div className="bg-black  overflow-hidden shadow-md">
+                    <img
+                      src={ocean}
+                      alt="Rose Perfume"
+                      className="w-full h-56 object-cover"
+                    />
+                    <div className="p-4">
+                      <h3 className="font-semibold mb-2">
+                        The Timeless Elegance of Rose Perfume
+                      </h3>
+                      <p className="text-sm text-gray-400 mb-4">
+                        Unveiling the Queen of Flowers in Fragrance...
+                      </p>
+                      <p>
+                        Lavender, with its enchanting aroma and rich history, has been
+                        cherished for centuries as a symbol of relaxation, healing,
+                        and timeless beauty. In the world of perfumery, lavender plays
+                        a key role in creating captivating fragrances loved by many.
+                      </p>
+                      <button className=" transition-all duration-[0.4s] hover:scale-[1.1]   bg-black px-4 py-2 rounded-lg mt-[30px] hover:border-orange-600 hover:text-orange-700 border-2">
+                        Read More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </section>
       </div>
   )
 }

@@ -13,7 +13,7 @@ const Search = () => {
       <div className="flex items-center justify-around gap-10">
         <div className="relative">
           <input
-            className="bg-white w-[270px] py-2 px-3 pr-10 rounded-md outline-none"
+            className="bg-white text-black placeholder:text-black w-[270px] py-2 px-3 pr-10 rounded-md outline-none"
             type="text"
             placeholder="Search here"
           />

@@ -9,7 +9,7 @@ import Header from "./components/Header.jsx";
 import Slide from "./pages/Slide.jsx";
 import Blog from "./pages/Blog.jsx"
 import Servisec from "./pages/Services.jsx";
-import ProductList from "./components/ProductList.jsx";
+import SiteOne from "./components/ProductDeatils/SiteTwo.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/productlist",
-        element: <ProductList />,
+        element: <SiteOne />,
       },
     ],
   },

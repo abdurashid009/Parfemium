@@ -12,12 +12,7 @@ const App = () => {
         <Outlet />
       </div>
       <Footer />
-<<<<<<< HEAD
     </div>
-=======
-
-    </>
->>>>>>> 4fa6522279a04bd3a244ddbd731b6253276ed15e
   );
 };
 

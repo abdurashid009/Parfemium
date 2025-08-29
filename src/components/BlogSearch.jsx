@@ -6,6 +6,7 @@ import Box3 from '../assets/Box3.png'
 import Box4 from '../assets/Box4.png'
 import Box5 from '../assets/Box5.png'
 import Box6 from '../assets/Box6.png'
+import { Link } from 'react-router-dom'
 
 const Search = () => {
   return (
@@ -30,7 +31,6 @@ const Search = () => {
       </div>
 
       <div className="mt-[100px] grid grid-cols-3 gap-10 text-white">
-        
         <div className="bg-black rounded-lg shadow-lg p-4 flex flex-col justify-between">
           <div>
             <img src={Box1} alt="Box1" className="rounded-lg shadow-md" />
@@ -38,8 +38,10 @@ const Search = () => {
               Finding Your Signature Scent: A Guide to Perfume Personalities
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              Embark on a journey of self-discovery as we delve into the concept of perfume personalities.
-              From bold and adventurous to elegant and timeless, there's a fragrance that perfectly complements your essence.
+              Embark on a journey of self-discovery as we delve into the concept
+              of perfume personalities. From bold and adventurous to elegant and
+              timeless, there's a fragrance that perfectly complements your
+              essence.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -54,8 +56,10 @@ const Search = () => {
               The Art of Curating a Luxury Perfume Collection
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              A luxury perfume collection is not just an assortment of fragrances; it is a reflection of one's taste,
-              personality, and experiences. Each bottle holds a unique olfactory journey, crafted with the finest ingredients and artistic mastery.
+              A luxury perfume collection is not just an assortment of
+              fragrances; it is a reflection of one's taste, personality, and
+              experiences. Each bottle holds a unique olfactory journey, crafted
+              with the finest ingredients and artistic mastery.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -70,8 +74,10 @@ const Search = () => {
               Decoding Fragrance Notes: Unraveling the Symphony of Scents
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              Ever wondered how perfumers compose their masterpieces? Unravel the mystery behind fragrance notes – top, middle, and base – 
-              and learn how each layer contributes to the overall olfactory experience of a perfume.
+              Ever wondered how perfumers compose their masterpieces? Unravel
+              the mystery behind fragrance notes – top, middle, and base – and
+              learn how each layer contributes to the overall olfactory
+              experience of a perfume.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -86,8 +92,10 @@ const Search = () => {
               The Soothing Symphony of Lavender Perfumes
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              Lavender, with its enchanting aroma and rich history, has been cherished for centuries as a symbol of relaxation, healing, and timeless beauty.
-              In the world of perfumery, lavender plays a key role in creating captivating fragrances loved by many.
+              Lavender, with its enchanting aroma and rich history, has been
+              cherished for centuries as a symbol of relaxation, healing, and
+              timeless beauty. In the world of perfumery, lavender plays a key
+              role in creating captivating fragrances loved by many.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -102,8 +110,11 @@ const Search = () => {
               A Journey Through Time: Perfumery's Rich History
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              In our blog collection, we invite you to embark on a journey through time, where we explore the fascinating history of perfumery.
-              From ancient civilizations to modern-day masterpieces, we unravel the tales of how scents have adorned humanity throughout the ages.
+              In our blog collection, we invite you to embark on a journey
+              through time, where we explore the fascinating history of
+              perfumery. From ancient civilizations to modern-day masterpieces,
+              we unravel the tales of how scents have adorned humanity
+              throughout the ages.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -118,8 +129,11 @@ const Search = () => {
               The Timeless Elegance of Rose Perfumes
             </h1>
             <p className="mt-3 text-sm leading-relaxed">
-              Rose, often referred to as the "Queen of Flowers," has held a special place in human culture and history for centuries. 
-              Beyond its captivating beauty, this bloom has inspired perfumers to create some of the most timeless and exquisite fragrances in the world.
+              Rose, often referred to as the "Queen of Flowers," has held a
+              special place in human culture and history for centuries. Beyond
+              its captivating beauty, this bloom has inspired perfumers to
+              create some of the most timeless and exquisite fragrances in the
+              world.
             </p>
           </div>
           <button className="mt-5 border border-white px-2 py-1 text-sm rounded hover:bg-white hover:text-black transition inline-block w-auto">
@@ -128,14 +142,13 @@ const Search = () => {
         </div>
       </div>
 
-    
       <div className="flex justify-center mt-10">
         <button className="bg-orange-500 text-white px-6 py-2 rounded-md text-base font-medium hover:bg-orange-600 transition">
-          Load More
+          <Link to="/blogs">Load More</Link>
         </button>
       </div>
     </div>
-  )
+  );
 }
 
 export default Search

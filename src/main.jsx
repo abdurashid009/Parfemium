@@ -9,7 +9,10 @@ import Header from "./components/Header.jsx";
 import Slide from "./pages/Slide.jsx";
 import Blog from "./pages/Blog.jsx"
 import Servisec from "./pages/Services.jsx";
-import SiteOne from "./components/ProductDeatils/SiteTwo.jsx";
+import SiteOne from "./components/ProductDeatils/SiteOne.jsx";
+import SiteTwo from "./components/ProductDeatils/SiteTwo.jsx";
+import SiteTree from "./components/ProductDeatils/SiteThree.jsx";
+import SIteFour from "./components/ProductDeatils/SIteFour.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -42,6 +45,18 @@ const router = createBrowserRouter([
       {
         path: "/productlist",
         element: <SiteOne />,
+      },
+      {
+        path: "/productlist2",
+        element: <SiteTwo />,
+      },
+      {
+        path: "/productlist3",
+        element: <SiteTree />,
+      },
+      {
+        path: "/productlist4",
+        element: <SIteFour />,
       },
     ],
   },

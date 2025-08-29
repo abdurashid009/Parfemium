@@ -1,21 +1,25 @@
 import React, { useState } from "react";
-import Img1 from "../assets/img1.png";
-import Img2 from "../assets/img2.png";
-import Img3 from "../assets/img3.png";
-import After from "../assets/afterpay.png";
-import Star from "../assets/Frame 261.png";
-import Pic1 from "../assets/pic1.png";
-import Pic2 from "../assets/pic2.jpg";
-import Pic3 from "../assets/pic3.jpg";
-import Frame from "../assets/Frame 450.png";
-import Frofile from "../assets/Frame 441.png";
-import Profile from "../assets/Frame 440.png";
-import Stars from "../assets/Auto Layout Horizontal.png";
-import Sar1 from "../assets/par1.png";
-import Sar2 from "../assets/par2.png";
-import Sar3 from "../assets/par3.png";
-import Sar4 from "../assets/par4.png";
-import Img9 from '../assets/img9.png'
+import Img1 from "./images/img1.png";
+import Img2 from "./images/img2.png";
+import Img3 from "./images/img3.png";
+import After from "./images/afterpay.png";
+import Star from "./images/Frame 261.png";
+import Pic1 from "./images/pic1.png";
+import Pic2 from "./images/pic2.jpg";
+import Pic3 from "./images/pic3.jpg";
+import Frame from "./images/Frame 450.png";
+import Frofile from "./images/Frame 441.png";
+import Profile from "./images/Frame 440.png";
+import Stars from "./images/Auto Layout Horizontal.png";
+import Sar1 from "./images/par1.png";
+import Sar2 from "./images/par2.png";
+import Sar3 from "./images/par3.png";
+import Sar4 from "./images/par4.png";
+import Img9 from "./images/img9.png";
+import Img10 from "./images/atir2.png";
+import Atir3 from "./images/atir3.png";
+import Atir4 from "./images/atir4.png";
+import Atir5 from "./images/atir5.png";
 import { CiHeart } from "react-icons/ci";
 
 const SiteOne = () => {

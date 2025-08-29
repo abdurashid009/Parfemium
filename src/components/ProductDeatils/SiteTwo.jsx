@@ -1,22 +1,25 @@
 import React, { useState } from "react";
-import Img1 from "";
-import Img2 from "../assets/img2.png";
-import Img3 from "../assets/img3.png";
-import After from "../assets/afterpay.png";
-import Star from "../assets/Frame 261.png";
-import Pic1 from "../assets/pic1.png";
-import Pic2 from "../assets/pic2.jpg";
-import Pic3 from "../assets/pic3.jpg";
-import Frame from "../assets/Frame 450.png";
-import Frofile from "../assets/Frame 441.png";
-import Profile from "../assets/Frame 440.png";
-import Stars from "../assets/Auto Layout Horizontal.png";
-import Sar1 from "../assets/Sar1.png";
-import Sar2 from "../assets/Sar2.png";
-import Sar3 from "../assets/Sar3.png";
-import Sar4 from "../assets/Sar4.png";
-import Img9 from '../assets/img9.png'
-import Img10 from '../assets/atir2.png'
+import Img1 from "./images/img1.png";
+import Img2 from "./images/img2.png";
+import Img3 from "./images/img3.png";
+import After from "./images/afterpay.png";
+import Star from "./images/Frame 261.png";
+import Pic1 from "./images/pic1.png";
+import Pic2 from "./images/pic2.jpg";
+import Pic3 from "./images/pic3.jpg";
+import Frame from "./images/Frame 450.png";
+import Frofile from "./images/Frame 441.png";
+import Profile from "./images/Frame 440.png";
+import Stars from "./images/Auto Layout Horizontal.png";
+import Par1 from "./images/par1.png";
+import Par2 from "./images/par2.png";
+import Par3 from "./images/par3.png";
+import Par4 from "./images/par4.png";
+import Img9 from "./images/img9.png";
+import Img10 from "./images/atir2.png";
+import Atir3 from "./images/atir3.png";
+import Atir4 from "./images/atir4.png";
+import Atir5 from "./images/atir5.png";
 import { CiHeart } from "react-icons/ci";
 
 const SiteOne = () => {
@@ -214,7 +217,7 @@ const SiteOne = () => {
   <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 justify-center">
 
     <div className="rounded-xl bg-gradient-to-b from-[#1A1A1A] to-black p-4 relative group">
-      <img src={Sar1} alt="Luxurious Elixir Rough" className="rounded-lg mx-auto" />
+      <img src={Par1} alt="Luxurious Elixir Rough" className="rounded-lg mx-auto" />
       <div className="absolute inset-0 flex items-center justify-center bg-black/60 rounded-lg 
                       opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Quick View</p>
@@ -226,7 +229,7 @@ const SiteOne = () => {
     </div>
 
     <div className="rounded-xl bg-gradient-to-b from-[#1A1A1A] to-black p-4 relative group">
-      <img src={Sar2} alt="The Golden Legacy" className="rounded-lg mx-auto" />
+      <img src={Par2} alt="The Golden Legacy" className="rounded-lg mx-auto" />
       <div className="absolute inset-0 flex items-center justify-center bg-black/60 rounded-lg 
                       opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Quick View</p>
@@ -238,7 +241,7 @@ const SiteOne = () => {
     </div>
 
     <div className="rounded-xl bg-gradient-to-b from-[#1A1A1A] to-black p-4 relative group">
-      <img src={Sar3} alt="Luxurious Elixir" className="rounded-lg mx-auto" />
+      <img src={Par3} alt="Luxurious Elixir" className="rounded-lg mx-auto" />
       <div className="absolute inset-0 flex items-center justify-center bg-black/60 rounded-lg 
                       opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Quick View</p>
@@ -250,7 +253,7 @@ const SiteOne = () => {
     </div>
 
     <div className="rounded-xl bg-gradient-to-b from-[#1A1A1A] to-black p-4 relative group">
-      <img src={Sar4} alt="Luxurious Golden Legacy" className="rounded-lg mx-auto" />
+      <img src={Par4} alt="Luxurious Golden Legacy" className="rounded-lg mx-auto" />
       <div className="absolute inset-0 flex items-center justify-center bg-black/60 rounded-lg 
                       opacity-0 group-hover:opacity-100 transition duration-300">
         <p className="text-white text-lg font-bold">Quick View</p>

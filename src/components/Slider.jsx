@@ -36,7 +36,7 @@ const Slider = () => {
               className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"
             >
-              <div className=" ">
+              <div className="flex flex-col items-center justify-around ">
                 <img src={Par1} alt="" />
                 <h1 className=" text-white text-xl">Luxurious Elixir Rough</h1>
                 <p className=" text-[#AB572D] font-bold">
@@ -45,39 +45,48 @@ const Slider = () => {
                 </p>
               </div>
             </Link>
-            <div
+            <Link
+              to="/productlist2"
               className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"
             >
-              <img src={Par2} alt="" />
-              <h1 className=" text-white text-xl">The Golden Legacy</h1>
-              <p className=" text-[#AB572D] font-bold">
-                $ 160.00{" "}
-                <span className=" font-extralight text-white ">100ml</span>
-              </p>
-            </div>
-            <div
+              <div className="flex flex-col items-center justify-around ">
+                <img src={Par2} alt="" />
+                <h1 className=" text-white text-xl">The Golden Legacy</h1>
+                <p className=" text-[#AB572D] font-bold">
+                  $ 160.00{" "}
+                  <span className=" font-extralight text-white ">100ml</span>
+                </p>
+              </div>
+            </Link>
+            <Link
+              to="/productlist3"
               className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"
             >
-              <img src={Par3} alt="" />
-              <h1 className=" text-white text-xl">Luxurious Elixir</h1>
-              <p className=" text-[#AB572D] font-bold">
-                $ 250.00{" "}
-                <span className=" font-extralight text-white ">100ml</span>
-              </p>
-            </div>
-            <div
+              <div className="flex flex-col items-center justify-around ">
+                <img src={Par3} alt="" />
+                <h1 className=" text-white text-xl">Luxurious Elixir</h1>
+                <p className=" text-[#AB572D] font-bold">
+                  $ 250.00{" "}
+                  <span className=" font-extralight text-white ">100ml</span>
+                </p>
+              </div>
+            </Link>
+            <Link
+              to="/productlist4"
               className=" hover:transform-gpu hover:translate-y-[-40px] active:scale-80
                         transition-all duration-[0.5s] flex flex-col w-[500px] pb-[30px] gap-[10px] items-center justify-around rounded-xl bg-gradient-to-tr from-[#090909] bg-gradient-to-bl to-[#1a1a1a]"
             >
-              <img src={Par4} alt="" />
-              <h1 className=" text-white text-xl">Luxurious Essence</h1>
-              <p className=" text-[#AB572D] font-bold">
-                $ 260.00{" "}
-                <span className=" font-extralight text-white ">100ml</span>
-              </p>
-            </div>
+              <div className="flex flex-col items-center justify-around">
+                <img src={Par4} alt="" />
+                <h1 className=" text-white text-xl">Luxurious Essence</h1>
+                <p className=" text-[#AB572D] font-bold">
+                  $ 260.00{" "}
+                  <span className=" font-extralight text-white ">100ml</span>
+                </p>
+              </div>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
